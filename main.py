@@ -28,7 +28,7 @@ client = Groq(api_key=os.environ.get("GROQ_API_KEY"))
 
 @app.get("/")
 def health():
-    return {"status": "ok"}
+    return {"status": "V1.0.0"}
 
 
 @app.post("/extract")
